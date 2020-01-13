@@ -1,0 +1,10 @@
+server:
+  port: 8083
+        
+spring:
+  application:
+    name: turbine-service
+    
+turbine:
+  app-config: user-service,order-service
+  cluster-name-expression: new String("default")

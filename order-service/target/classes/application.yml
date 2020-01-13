@@ -1,0 +1,13 @@
+server:
+  port: 8081
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+        
+spring:
+  application:
+    name: order-service
+  
